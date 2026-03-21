@@ -200,7 +200,13 @@ if (!isset($_COOKIE["user"])) {
 
                     <div class="form-group">
                         <label>Contact Number</label>
-                        <input type="tel" name="contact" placeholder="Phone number for contact" pattern="[0-9]{10}" title="Please enter a valid 10-digit phone number" required>
+                        <input 
+                            type="tel" 
+                            name="contact" 
+                            placeholder="Phone number for contact" 
+                            pattern="[6-9]{1}[0-9]{9}" 
+                            title="Please enter a valid 10-digit phone number starting with 6, 7, 8, or 9" 
+                            required>
                     </div>
 
                     <div class="form-group">

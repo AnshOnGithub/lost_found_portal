@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 $dbname = "lost_found_db";
 
 $conn = mysqli_connect($servername,$username,$password,$dbname);
